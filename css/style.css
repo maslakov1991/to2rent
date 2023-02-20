@@ -361,7 +361,7 @@ button {
 .reviews {
     width: 300px;
 }
-.reviews__img{
+.reviews__img {
     width: 300px;
     height: 127px;
     margin-bottom: 20px;
@@ -378,3 +378,74 @@ button {
 }
 
 /* ! FOOTER */
+.footer {
+}
+.footer__top {
+    color: #ffffff;
+    background-color: #020202;
+    padding: 100px 0;
+}
+.footer__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__menu-list {
+    width: 250px;
+    margin-right: 50px;
+}
+.footer__menu-item {
+}
+.footer__menu-link {
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer__menu-link + .footer__menu-link {
+    margin-top: 15px;
+}
+.footer__menu-link:hover {
+    color: #c4c4c4;
+}
+.footer__form {
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+}
+.footer__form-label {
+    padding-right: 10px;
+    line-height: 18px;
+    color: #888888;
+}
+.footer__form-input {
+    background: #ffffff;
+    border: 2px solid #c4c4c4;
+    color: #888888;
+    height: 70px;
+    padding: 0 15px;
+    width: 511px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.footer__form-input::placeholder {
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #888888;
+}
+.footer_form-btn {
+    font-family: "Roboto Condensed", sans-serif;
+    display: inline-block;
+    background: #c4c4c4;
+    border: 2px solid #c4c4c4;
+    color: #ffffff;
+    padding: 24px 35px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.footer__bottom{
+    text-align: center;
+    padding-bottom: 23px;
+}
